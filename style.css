@@ -3,3 +3,13 @@ div {
     border: 1px dotted black;
     padding: 10px;
 }
+
+/* Copied from project instructions page:
+CSS VARIABLES OVERRIDE Bootstrap color classes 
+if you follow this format exactly */
+:root {
+  --bs-primary: rgb(164, 90, 255) !important;
+  --bs-primary-rgb: 164, 90, 255 !important;
+  --bs-primary-bg: rgb(164, 90, 255) !important;
+  --bs-primary-bg-subtle: rgb(220, 191, 255) !important;
+}
