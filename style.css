@@ -3,3 +3,8 @@ div {
     border: 1px dotted black;
     padding: 10px;
 }
+
+#recipe-blog {
+  border: 1px solid black;
+}
+
