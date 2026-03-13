@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Attach id="body" to body tag, to help specificity! */
+#body {
+    font-family: "Sour Gummy";
+    background: linear-gradient(90deg, rgb(156, 177, 248) 7.5%, rgb(153, 247, 243) 93.1%);
+}
+
 /* TEMPORARY BORDERS for layout */
 div {
-    border: 1px dotted black;
     padding: 10px;
 }
 
 h1, h2, h3 {
     font-family: "Coiny";
-}
-
-/* Attach id="body" to body tag, to help specificity! */
-#body {
-    font-family: "Sour Gummy";
-    background: linear-gradient(90deg, rgb(156, 177, 248) 7.5%, rgb(153, 247, 243) 93.1%);
 }
